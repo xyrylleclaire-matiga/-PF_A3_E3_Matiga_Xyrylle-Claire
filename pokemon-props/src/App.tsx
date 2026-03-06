@@ -7,7 +7,7 @@ interface AppProps {
 
 export default function App({ pokemonData }: AppProps) {
     return (
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '50px' }}>
+        <div className="app-container">
             <h1>PokéAPI Prop Demo</h1>
             <PokemonCard pokemon={pokemonData} />
         </div>
